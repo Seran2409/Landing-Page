@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex; 
+    background-color: red;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: aqua;
+}
+
+.website-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    background-color: red;
+}
